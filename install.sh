@@ -16,4 +16,6 @@ git clone git@github.com:azeeson/dotfiles.git ~/dotfiles
 
 cd ~/dotfiles
 
+sh start.sh
+
 
