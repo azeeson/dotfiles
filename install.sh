@@ -12,7 +12,7 @@ command_exists brew || {
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 }
 
-git clone git@github.com:azeeson/dotfiles.git ~/dotfiles
+git clone https://github.com/azeeson/dotfiles.git ~/dotfiles
 
 cd ~/dotfiles
 
