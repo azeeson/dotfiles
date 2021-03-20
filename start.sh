@@ -1,5 +1,6 @@
 brew update
 
+brew bundle
 
 
 
