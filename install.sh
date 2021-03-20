@@ -12,19 +12,8 @@ command_exists brew || {
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 }
 
-# Установка visual-studio-code, iterm, sublime-merge, docker
-brew cask install visual-studio-code
-brew cask install iterm2
-brew cask install sublime-merge
-brew cask install docker
+git clone git@github.com:azeeson/dotfiles.git ~/dotfiles
 
-brew install nginx
+cd ~/dotfiles
 
-ln -s "/Applications/Sublime Merge.app/Contents/SharedSupport/bin/smerge" /usr/local/bin/smerge
-ln -s "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" /usr/local/bin/code
 
-echo "Print version:"
-git --version
-brew --version
-code --version
-smerge --version
