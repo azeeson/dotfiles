@@ -16,6 +16,7 @@ cask "docker"
 cask "spotify"
 cask "dash"
 cask "alfred"
+cask "dropbox"
 
 # Programming languages
 brew "go"
