@@ -15,6 +15,7 @@ cask "sublime-merge"
 cask "docker"
 cask "spotify"
 cask "dash"
+cask "alfred"
 
 # Programming languages
 brew "go"
