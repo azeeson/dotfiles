@@ -167,16 +167,6 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 # File extension change warning
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
-# Arrange by
-# Kind, Name, Application, Date Last Opened,
-# Date Added, Date Modified, Date Created, Size, Tags, None
-defaults write com.apple.finder FXPreferredGroupBy -string "Name"
-
-
-
-
-
-
 # Finder: show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
@@ -250,19 +240,6 @@ for view in 'Desktop' 'FK_Standard' 'Standard'; do
     # Icon size
     /usr/libexec/PlistBuddy -c "Set :${view}ViewSettings:IconViewSettings:iconSize integer 64" ~/Library/Preferences/com.apple.finder.plist
 done
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

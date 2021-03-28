@@ -9,6 +9,7 @@ brew bundle
 
 sh macos.sh
 sh extended/macos/settings.sh
+sh extended/macos/finder.sh
 sh extended/dropbox.sh
 
 
