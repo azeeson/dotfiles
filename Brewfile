@@ -1,14 +1,28 @@
+# Taps
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+
 # brew "gnupg"
-brew "go"
 brew "hugo"
 brew "nginx"
-brew "node"
+
 # brew "unrar"
 cask "visual-studio-code"
-cask "google-chrome"
 cask "iterm2"
 cask "sublime-merge"
 cask "docker"
+cask "spotify"
+cask "dash"
+
+# Programming languages
+brew "go"
+brew "node"
+
+# Browsers
+cask "google-chrome"
+
+# Fonts
+cask "font-fira-code"
+cask "font-hasklig"
