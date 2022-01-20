@@ -25,21 +25,21 @@ brew "syncthing", restart_service: true
 
 
 cask "alfred", require_sha: true
-cask "dropbox"
+cask "dropbox", require_sha: false
 cask "visual-studio-code", require_sha: true
 cask "iterm2", require_sha: true
 cask "goland", require_sha: true
 cask "telegram", require_sha: true
 cask "intellij-idea", require_sha: true
 cask "sublime-merge", require_sha: true
-cask "spotify"
+cask "spotify", require_sha: false
 cask "synology-drive", require_sha: true
 cask "figma", require_sha: true
 cask "zoom", require_sha: true
 # cask "dash"
 
 # Browsers
-cask "google-chrome"
+cask "google-chrome", require_sha: false
 
 # Fonts
 cask "font-fira-code", require_sha: true
