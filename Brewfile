@@ -15,6 +15,7 @@ brew "gnupg"
 brew "pinentry-mac"
 brew "docker"
 brew "docker-compose"
+# 127.0.0.1:8384
 brew "syncthing", restart_service: true
 # brew "hugo"
 # brew "nginx"
@@ -24,21 +25,21 @@ brew "syncthing", restart_service: true
 
 
 cask "alfred"
-cask "dropbox"
+cask "dropbox", require_sha: false
 cask "visual-studio-code"
 cask "iterm2"
 cask "goland"
 cask "telegram"
 cask "intellij-idea"
 cask "sublime-merge"
-cask "spotify"
+cask "spotify", require_sha: false
 cask "synology-drive"
 cask "figma"
 cask "zoom"
 # cask "dash"
 
 # Browsers
-cask "google-chrome"
+cask "google-chrome", require_sha: false
 
 # Fonts
 cask "font-fira-code"

@@ -55,7 +55,7 @@ check_mode "macos" && {
 # Configuration Apps
 check_mode "apps" && {
     echo "Configuration Apps..."
-    execute_remote "extended/pgp.sh"
+    execute_remote "extended/gpg.sh"
     execute_remote "extended/git.sh"
     execute_remote "extended/npm.sh"
     execute_remote "extended/dropbox.sh"
