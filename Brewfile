@@ -1,4 +1,4 @@
-cask_args appdir: "/Applications", require_sha: true
+cask_args appdir: "/Applications"
 
 # Taps
 tap "homebrew/bundle"
@@ -24,25 +24,25 @@ brew "syncthing", restart_service: true
 # brew 'mas'
 
 
-cask "alfred"
-cask "dropbox", require_sha: false
-cask "visual-studio-code"
-cask "iterm2"
-cask "goland"
-cask "telegram"
-cask "intellij-idea"
-cask "sublime-merge"
-cask "spotify", require_sha: false
-cask "synology-drive"
-cask "figma"
-cask "zoom"
+cask "alfred", require_sha: true
+cask "dropbox"
+cask "visual-studio-code", require_sha: true
+cask "iterm2", require_sha: true
+cask "goland", require_sha: true
+cask "telegram", require_sha: true
+cask "intellij-idea", require_sha: true
+cask "sublime-merge", require_sha: true
+cask "spotify"
+cask "synology-drive", require_sha: true
+cask "figma", require_sha: true
+cask "zoom", require_sha: true
 # cask "dash"
 
 # Browsers
-cask "google-chrome", require_sha: false
+cask "google-chrome"
 
 # Fonts
-cask "font-fira-code"
-cask "font-hasklig"
+cask "font-fira-code", require_sha: true
+cask "font-hasklig", require_sha: true
 
 # mas "1Password", id: 443987910
