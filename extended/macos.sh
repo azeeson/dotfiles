@@ -13,3 +13,10 @@ execute_remote extended/macos/settings.sh
 
 echo "Configuration Mac OS: Finder..."
 execute_remote extended/macos/finder.sh
+
+
+
+
+#    "com.apple.preference.battery" =         {
+# 							      >	            hasBeenWarnedAboutEnergyUsage = 1;
+# 							      >	        };

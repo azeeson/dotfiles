@@ -1,0 +1,471 @@
+{
+    "editor.fontLigatures": true,
+    //"editor.fontFamily": "Hasklig, Consolas, 'Courier New', monospace",
+    "editor.emptySelectionClipboard": false,
+    "editor.minimap.enabled": true,
+    "editor.minimap.showSlider": "always",
+    "editor.renderLineHighlight": "line",
+    "editor.showFoldingControls": "always",
+    // "editor.smoothScrolling": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontWeight": "400",
+    "editor.fontSize": 12.6,
+    "editor.lineHeight": 20,
+    "editor.rulers": [ 140 ],
+    "editor.wordWrap": "wordWrapColumn",
+    // "editor.wordWrap":"on",
+    "editor.wordWrapColumn": 140,
+    // "editor.letterSpacing": 0.1,
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "files.eol": "\n",
+    "explorer.autoReveal": false,
+    "css.validate": false,
+    "scss.validate": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "meta.embedded",
+                    "source.groovy.embedded",
+                    "meta.template.expression",
+                    "keyword.operator",
+                    "storage.modifier.import.java",
+                    "variable.language.wildcard.java",
+                    "storage.modifier.package.java"
+                ],
+                "settings": {
+                    "foreground": "#d4d4d4"
+                }
+            },
+            {
+                "scope": [
+                    "header"
+                ],
+                "settings": {
+                    "foreground": "#000080"
+                }
+            },
+            {
+                "scope": [
+                    "comment",
+                    "punctuation.definition.quote.begin.markdown"
+                ],
+                "settings": {
+                    "foreground": "#6a9955"
+                }
+            },
+            {
+                "scope": [
+                    "constant.language",
+                    "entity.name.tag",
+                    "markup.bold",
+                    "markup.heading",
+                    "markup.changed",
+                    "meta.preprocessor",
+                    "meta.diff.header",
+                    "storage",
+                    "storage.type",
+                    "storage.modifier",
+                    "punctuation.definition.template-expression.begin",
+                    "punctuation.definition.template-expression.end",
+                    "punctuation.section.embedded",
+                    "keyword",
+                    "keyword.control",
+                    "keyword.operator.new",
+                    "keyword.operator.expression",
+                    "keyword.operator.cast",
+                    "keyword.operator.sizeof",
+                    "keyword.operator.instanceof",
+                    "keyword.operator.logical.python",
+                    "punctuation.section.embedded.begin.php",
+                    "punctuation.section.embedded.end.php",
+                    "variable.language",
+                    "constant.character"
+                ],
+                "settings": {
+                    "foreground": "#0e93ff"
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric",
+                    "markup.inserted",
+                    "meta.preprocessor.numeric",
+                    "keyword.other.unit",
+                    "constant.sha.git-rebase"
+                ],
+                "settings": {
+                    "foreground": "#b5cea8"
+                }
+            },
+            {
+                "scope": [
+                    "constant.regexp"
+                ],
+                "settings": {
+                    "foreground": "#646695"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.tag.css",
+                    "entity.other.attribute-name.class.css",
+                    "entity.other.attribute-name.class.mixin.css",
+                    "entity.other.attribute-name.id.css",
+                    "entity.other.attribute-name.parent-selector.css",
+                    "entity.other.attribute-name.pseudo-class.css",
+                    "entity.other.attribute-name.pseudo-element.css",
+                    "source.css.less entity.other.attribute-name.id",
+                    "entity.other.attribute-name.attribute.scss",
+                    "entity.other.attribute-name.scss",
+                    "keyword.operator.quantifier.regexp",
+                    "constant.character.escape"
+                ],
+                "settings": {
+                    "foreground": "#ffdc90"
+                }
+            },
+            {
+                "scope": [
+                    "entity.other.attribute-name",
+                    "meta.structure.dictionary.key.python",
+                    "support.type.vendored.property-name",
+                    "support.type.property-name",
+                    "variable.css",
+                    "variable.scss",
+                    "variable.other.less",
+                    "source.coffee.embedded",
+                    "support.function.git-rebase",
+                    "variable",
+                    "meta.definition.variable.name",
+                    "support.variable",
+                    "entity.name.variable",
+                    "meta.object-literal.key"
+                ],
+                "settings": {
+                    "foreground": "#b8edff"
+                }
+            },
+            {
+                "scope": [
+                    "invalid",
+                    "token.error-token"
+                ],
+                "settings": {
+                    "foreground": "#f44747"
+                }
+            },
+            {
+                "scope": [
+                    "markup.deleted",
+                    "markup.inline.raw",
+                    "meta.preprocessor.string",
+                    "string",
+                    "string.tag",
+                    "string.value",
+                    "support.constant.property-value",
+                    "support.constant.font-name",
+                    "support.constant.media-type",
+                    "support.constant.media",
+                    "constant.other.color.rgb-value",
+                    "constant.other.rgb-value",
+                    "support.constant.color",
+                    "punctuation.definition.group.regexp",
+                    "punctuation.definition.group.assertion.regexp",
+                    "punctuation.definition.character-class.regexp",
+                    "punctuation.character.set.begin.regexp",
+                    "punctuation.character.set.end.regexp",
+                    "keyword.operator.negation.regexp",
+                    "support.other.parenthesis.regexp"
+                ],
+                "settings": {
+                    "foreground": "#ffb699"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.list.begin.markdown",
+                    "token.info-token"
+                ],
+                "settings": {
+                    "foreground": "#7dadff"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.definition.tag"
+                ],
+                "settings": {
+                    "foreground": "#808080"
+                }
+            },
+            {
+                "scope": [
+                    "string.regexp",
+                    "constant.character.character-class.regexp",
+                    "constant.other.character-class.set.regexp",
+                    "constant.other.character-class.regexp",
+                    "constant.character.set.regexp"
+                ],
+                "settings": {
+                    "foreground": "#fc7a7a"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function",
+                    "support.function",
+                    "support.constant.handlebars",
+                    "source.powershell variable.other.member",
+                    "keyword.operator.or.regexp",
+                    "keyword.control.anchor.regexp"
+                ],
+                "settings": {
+                    "foreground": "#ffffb1"
+                }
+            },
+            {
+                "scope": [
+                    "meta.return-type",
+                    "support.class",
+                    "support.type",
+                    "entity.name.type",
+                    "entity.name.namespace",
+                    "entity.name.scope-resolution",
+                    "entity.name.class",
+                    "storage.type.numeric.go",
+                    "storage.type.byte.go",
+                    "storage.type.boolean.go",
+                    "storage.type.string.go",
+                    "storage.type.uintptr.go",
+                    "storage.type.error.go",
+                    "storage.type.rune.go",
+                    "storage.type.cs",
+                    "storage.type.generic.cs",
+                    "storage.type.modifier.cs",
+                    "storage.type.variable.cs",
+                    "storage.type.annotation.java",
+                    "storage.type.generic.java",
+                    "storage.type.java",
+                    "storage.type.object.array.java",
+                    "storage.type.primitive.array.java",
+                    "storage.type.primitive.java",
+                    "storage.type.token.java",
+                    "storage.type.groovy",
+                    "storage.type.annotation.groovy",
+                    "storage.type.parameters.groovy",
+                    "storage.type.generic.groovy",
+                    "storage.type.object.array.groovy",
+                    "storage.type.primitive.array.groovy",
+                    "storage.type.primitive.groovy",
+                    "meta.type.cast.expr",
+                    "meta.type.new.expr",
+                    "support.constant.math",
+                    "support.constant.dom",
+                    "support.constant.json",
+                    "entity.other.inherited-class"
+                ],
+                "settings": {
+                    "foreground": "#2ddab7"
+                }
+            },
+            {
+                "scope": [
+                    "keyword.control",
+                    "source.cpp keyword.operator.new",
+                    "keyword.operator.delete",
+                    "keyword.other.using",
+                    "keyword.other.operator"
+                ],
+                "settings": {
+                    "foreground": "#c586c0"
+                }
+            },
+            {
+                "scope": [
+                    "token.warn-token"
+                ],
+                "settings": {
+                    "foreground": "#e6ad43"
+                }
+            },
+            {
+                "scope": [
+                    "token.debug-token"
+                ],
+                "settings": {
+                    "foreground": "#b267e6"
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#28292e",
+        "editorRuler.foreground": "#2a2a2a",
+        "editor.lineHighlightBackground": "#2f3238",
+        
+        "titleBar.activeBackground": "#202124",
+        "titleBar.border": "#3b3c40",
+        // "tab.activeBackground": "#395271",
+        "tab.activeBackground": "#2a3c52",
+        "tab.inactiveBackground": "#353639",
+        "sideBar.background": "#202124",
+        "sideBar.border": "#3b3c40",
+        "activityBar.border": "#3b3c40",
+        "activityBar.background": "#28292e",
+        "activityBar.dropBackground": "#fff",
+        "statusBar.background": "#202124",
+        "statusBar.foreground": "#6a6d74",
+        "statusBar.border": "#3b3c40",
+        "statusBar.noFolderBackground": "#212121",
+        "statusBar.noFolderForeground": "#6a6d74",
+        "statusBar.noFolderBorder": "#3b3c40",
+        "statusBar.debuggingBackground": "#212121",
+        "statusBar.debuggingForeground": "#a17070",
+        "statusBar.debuggingBorder": "#270f0f",
+        "terminal.foreground" : "#00FD61",
+        // "terminal.background" : "#383737"
+
+        // "foreground": "#ff0000"
+        // "menu.foreground": "#ff0000",
+        // "icon.foreground": "#ff0000",
+        // "badge.foreground": "#ff0000",
+        // "charts.foreground": "#ff0000",
+        // "list.focusForeground": "#ff0000",
+        "editor.foreground": "#e0e0e1",
+        "editorLineNumber.foreground": "#747477",
+        "editorLineNumber.activeForeground": "#e0e0e1"
+    },
+    // "terminal.integrated.fontFamily": "Hasklig",
+    "terminal.integrated.fontSize": 12,
+    "editor.detectIndentation": false,
+    // "editor.insertSpaces": false,
+    // "editor.tabSize": 4,
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.visible": true,
+    // "editor.matchBrackets": false,
+    "files.autoSave": "off",
+    "gitlens.advanced.messages": {
+        "suppressCommitNotFoundWarning": true,
+        // "suppressShowKeyBindingsNotice": true
+    },
+    "cSpell.language": "en,ru",
+    "cSpell.ignoreWords": [
+        "таба",
+        "ОГРН",
+        "ОКАТО",
+        "Правоустанавливающие",
+        "ЕГРЮЛ",
+        "ЕГРИП",
+        "стору",
+        "таймлайна",
+        "Unmount",
+        "Отрисовка",
+        "Пропсы",
+        "таймлайне",
+        "табов",
+        "Рефакторинг",
+        "guid",
+        "аннуитетного",
+        "роута",
+        "роутов",
+        "роутингом",
+        "Роутинг",
+        "Consts",
+        "hendle",
+        "SBOF",
+        "СБОФ",
+        "Валидация",
+        "валидации",
+        "Валидирует",
+        "NSCF",
+        "OGRN",
+        "Questionary",
+        "Okved",
+        "отрисовку"
+    ],
+    "editor.minimap.renderCharacters": false,
+    "editor.renderWhitespace": "boundary",
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[log]": {
+        "editor.wordWrap": "on",
+    },
+    "go.formatTool": "gofmt",
+    // "cSpell.showCommandsInEditorContextMenu": false,
+    // "cSpell.showStatus": false,
+    "cSpell.diagnosticLevel": "Hint",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.quickSuggestions": true,
+    "[markdown]":  {
+        "editor.quickSuggestions": true
+    },
+    "editor.suggestSelection": "first",
+    "git.enableSmartCommit": true,
+    "extensions.ignoreRecommendations": false,
+    "editor.minimap.maxColumn": 130,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.format.enable": true,
+    "eslint.runtime": "/usr/local/bin/node",
+    "eslint.options": {
+        "useEslintrc": true
+    },
+    "eslint.alwaysShowStatus": true,
+    // "eslint.enable": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+    ],
+    "editor.largeFileOptimizations": false,
+    "editor.maxTokenizationLineLength": 2000000,
+    "git.enabled": true,
+    "git.allowNoVerifyCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    // "terminal.integrated.shell.osx": "/bin/bash",
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "terminal.external.osxExec": "/bin/bash",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.matchBrackets": "never",
+    "cSpell.userWords": [
+        "SBOL"
+    ],
+    "redhat.telemetry.enabled": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "json.maxItemsComputed": 15000,
+    "git.confirmNoVerifyCommit": false,
+}

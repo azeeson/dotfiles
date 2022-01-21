@@ -60,6 +60,7 @@ check_mode "apps" && {
     execute_remote "extended/npm.sh"
     execute_remote "extended/dropbox.sh"
     execute_remote "extended/synology.sh"
+    execute_remote "extended/vscode.sh"
 }
 
 

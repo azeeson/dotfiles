@@ -9,3 +9,5 @@ defaults write com.apple.loginwindow LoginwindowText -string "Found me? Shoot a 
 
 # Отображать всегда расширение файлов
 defaults write NSGlobalDomain AppleShowAllExtensions -bool yes
+
+defaults write com.apple.Finder "AppleShowAllFiles" -bool "false"

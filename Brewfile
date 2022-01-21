@@ -33,7 +33,8 @@ cask "telegram", require_sha: true
 cask "intellij-idea", require_sha: true
 cask "sublime-merge", require_sha: true
 cask "spotify", require_sha: false
-cask "synology-drive", require_sha: true
+# Wait version for Apple Silicon M1
+# cask "synology-drive", require_sha: true
 cask "figma", require_sha: true
 cask "zoom", require_sha: true
 # cask "dash"

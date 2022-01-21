@@ -26,4 +26,26 @@ defaults write com.apple.finder NewWindowTargetPath -string "file://$HOME/"
 defaults write com.apple.finder _FXSortFoldersFirst -bool yes
 defaults write com.apple.finder _FXSortFoldersFirstOnDesktop -bool yes
 
+defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool yes
+
+# Set sidebar icon size
+defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int 1
+
+
+
+
+
+
+# Включить выделение текста в окнах быстрого просмотра
+defaults write com.apple.finder QLEnableTextSelection -bool yes
+
+# Всегда показывать скрытые файлы в Finder
+defaults write com.apple.finder AppleShowAllFiles -bool YES
+
+# Показывать системную информацию при входе в систему
+# sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+
+# Всегда показывать папку «Библиотеки»
+# chflags nohidden ~/Library/
+
 killall Finder
