@@ -14,6 +14,9 @@ execute_remote extended/macos/settings.sh
 echo "Configuration Mac OS: Finder..."
 execute_remote extended/macos/finder.sh
 
+echo "Configuration Mac OS: Dock..."
+execute_remote extended/macos/dock.sh
+
 
 
 
