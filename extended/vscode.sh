@@ -1,9 +1,14 @@
 #!/bin/sh
 
+command_exists() {
+	command -v "$@" >/dev/null 2>&1
+}
+
 curl_repository() {
     curl -fsSL "https://raw.githubusercontent.com/azeeson/dotfiles/main/$1"
 }
 
+command_exists code && {
 #  --force
 cie='code --install-extension'
 
@@ -36,3 +41,5 @@ settings="$(curl_repository settings/vsode.jsonc)"
 cat > "$HOME/Library/Application Support/Code/User/settings.json" <<EOF
 $settings
 EOF
+
+}
