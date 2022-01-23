@@ -4,7 +4,7 @@ curl_repository() {
     curl -fsSL "https://raw.githubusercontent.com/azeeson/dotfiles/main/$1"
 }
 
-cie='code --install-extension'
+cie='code --install-extension --force'
 
 $cie "aaron-bond.better-comments"
 $cie "AppulateInc.filewatcher"
@@ -32,6 +32,6 @@ $cie "xyz.plsql-language"
 
 settings="$(curl_repository settings/vsode.jsonc)"
 
-cat > "$HOME//Library/Application Support/Code/User/settings.json" <<EOF
+cat > "$HOME/Library/Application Support/Code/User/settings.json" <<EOF
 $settings
 EOF

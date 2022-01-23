@@ -25,7 +25,8 @@ brew "syncthing", restart_service: true
 
 
 cask "alfred", require_sha: true
-cask "dropbox", require_sha: false
+# Wait version for Apple Silicon M1
+# cask "dropbox", require_sha: false
 cask "visual-studio-code", require_sha: true
 cask "iterm2", require_sha: true
 cask "goland", require_sha: true

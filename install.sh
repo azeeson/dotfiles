@@ -61,6 +61,8 @@ check_mode "apps" && {
     execute_remote "extended/dropbox.sh"
     execute_remote "extended/synology.sh"
     execute_remote "extended/vscode.sh"
+    execute_remote "extended/shell.sh"
+    execute_remote "extended/add_links.sh"
 }
 
 
