@@ -78,6 +78,8 @@ plugins=(git npm docker zsh-syntax-highlighting)
 
 SOLARIZED_THEME="dark"
 
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor root)
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
