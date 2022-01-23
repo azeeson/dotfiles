@@ -4,13 +4,17 @@ curl_repository() {
     curl -fsSL "https://raw.githubusercontent.com/azeeson/dotfiles/main/$1"
 }
 
+echo "Install oh-my-zsh..."
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+
+echo "Install zsh-syntax-highlighting..."
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
 
 settings="$(curl_repository settings/.zshrc)"
 
+echo "Install settings zsh..."
 cat > "$HOME/.zshrc" <<EOF
 $settings
 EOF
