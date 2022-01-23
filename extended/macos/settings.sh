@@ -16,3 +16,6 @@ defaults write com.apple.loginwindow LoginwindowText -string "Found me? Shoot a 
 defaults write NSGlobalDomain AppleShowAllExtensions -bool yes
 
 defaults write com.apple.Finder "AppleShowAllFiles" -bool "false"
+
+# Использовать Caps Lock для переключения раскладки
+defaults write NSGlobalDomain TISRomanSwitchState -bool yes

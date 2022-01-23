@@ -1,4 +1,4 @@
-cask_args appdir: "/Applications"
+cask_args appdir: "/Applications", require_sha: true
 
 # Taps
 tap "homebrew/bundle"
@@ -8,7 +8,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-drivers"
 
 # Programming languages
-# brew "go"
+brew "go"
 brew "node@16", conflicts_with: ["node"], link: true
 
 brew "gnupg"
@@ -16,7 +16,7 @@ brew "pinentry-mac"
 brew "docker"
 brew "docker-compose"
 # 127.0.0.1:8384
-brew "syncthing", restart_service: true
+# brew "syncthing", restart_service: true
 # brew "hugo"
 # brew "nginx"
 # brew "unrar"
@@ -24,27 +24,27 @@ brew "syncthing", restart_service: true
 # brew 'mas'
 
 
-cask "alfred", require_sha: true
+cask "alfred"
 # Wait version for Apple Silicon M1
 # cask "dropbox", require_sha: false
-cask "visual-studio-code", require_sha: true
-cask "iterm2", require_sha: true
-cask "goland", require_sha: true
-cask "telegram", require_sha: true
-cask "intellij-idea", require_sha: true
-cask "sublime-merge", require_sha: true
+cask "visual-studio-code"
+cask "iterm2"
+cask "goland"
+cask "telegram"
+cask "intellij-idea"
+cask "sublime-merge"
 cask "spotify", require_sha: false
 # Wait version for Apple Silicon M1
-# cask "synology-drive", require_sha: true
-cask "figma", require_sha: true
-cask "zoom", require_sha: true
+# cask "synology-drive"
+cask "figma"
+cask "zoom"
 # cask "dash"
 
 # Browsers
 cask "google-chrome", require_sha: false
 
 # Fonts
-cask "font-fira-code", require_sha: true
-cask "font-hasklig", require_sha: true
+cask "font-fira-code"
+cask "font-hasklig"
 
 # mas "1Password", id: 443987910

@@ -4,7 +4,8 @@ curl_repository() {
     curl -fsSL "https://raw.githubusercontent.com/azeeson/dotfiles/main/$1"
 }
 
-cie='code --install-extension --force'
+#  --force
+cie='code --install-extension'
 
 $cie "aaron-bond.better-comments"
 $cie "AppulateInc.filewatcher"
