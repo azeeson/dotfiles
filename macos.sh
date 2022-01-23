@@ -209,6 +209,8 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
     -c "Set :StandardViewOptions:ColumnViewOptions:ArrangeBy       string  dnam"  \
     ~/Library/Preferences/com.apple.finder.plist
 
+
+
 # Set icon view settings on desktop and in icon views
 for view in 'Desktop' 'FK_Standard' 'Standard'; do
     # Item info near icons
@@ -222,6 +224,14 @@ for view in 'Desktop' 'FK_Standard' 'Standard'; do
     # Icon size
     /usr/libexec/PlistBuddy -c "Set :${view}ViewSettings:IconViewSettings:iconSize integer 64" ~/Library/Preferences/com.apple.finder.plist
 done
+
+
+
+
+
+
+
+
 
 
 
