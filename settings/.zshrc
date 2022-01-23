@@ -76,6 +76,8 @@ DISABLE_LS_COLORS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git npm docker zsh-syntax-highlighting)
 
+SOLARIZED_THEME="dark"
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
